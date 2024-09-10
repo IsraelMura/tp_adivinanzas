@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 3.1em;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  margin-right: 10px;
+  padding: 9px;
+  border-color: blueviolet;
+  border-radius: 18px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.range {
+  font-size: 20pt;
+  background-color: #00ACC1;
+  color: #000000;
+  padding: 0.5rem;
+  border-radius: 18px;
+}
+
+.guess-number {
+  padding: 10px;
+  background-color: #4CAF50;
+  border-radius: 7px;
+  color: #000000;
+  font-size: 20pt;
+  cursor: pointer;
+}
+
+.guess-number:hover {
+  color: #ffffff;
+}
+
+.container-result {
+  width: 100%;
+  position: relative;
+  padding: 5px;
+  display: block;
+  border-radius: 9px;
+  margin-top: 20px;
+}
+
+.danger {
+  background-color: #E91E63;
+}
+
+.success {
+  background-color: #45a049;
+}
+
+.regular {
+  background-color: rgb(46 57 63);
+}
+
+.reset-button {
+  margin-top: 12px;
+  background-color: #9C27B0;
+}
+
+.reset-button:hover {
+  background-color: #dd00ff;
+}
